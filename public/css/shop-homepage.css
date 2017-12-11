@@ -1,0 +1,133 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+li{
+	list-style: none;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+.my-4{
+	text-align: center;
+}
+.h-100{
+	background: #36D1C4;
+	color: #fff;
+}
+.my-3 {
+	color: yellow;
+	background: #36D1C4;
+}
+
+h5{
+	color: #d0d8dd;
+}
+.bot{
+	width: 100%;
+	margin: 0 auto;
+	padding: 15px 0 10px;
+	overflow: hidden;
+	font-size: 13px;
+	color: #bababa;
+	background-color: #373939;
+}
+
+.bot ul{
+	line-height: 1.7;
+	padding: 0;
+}
+.bot ul li a{
+	color: #bababa;
+}
+.bot ul li a:hover {
+	color: #36D1C4;
+}
+
+.bot .title-footer{
+	font-size: 18px;
+	line-height: 1;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #bababa;
+}
+.bot .title-footer span{
+	display: inline-block;
+	color: #bababa;
+}
+
+.bot .footer-icon span i{
+	line-height: 2;
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	border: 1px solid #a3a3a3;
+	border-radius: 100%;
+}
+
+.bot .follow-us {
+	display: inline-block;
+}
+.bot .follow-us li {
+	float: left;
+}
+.bot .follow-us li a {
+	font-size: 20px;
+	line-height: 2;
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 10px 10px 0 0;
+	text-align: center;
+	border: 1px solid #a3a3a3;
+	border-radius: 100%;
+	transition: all 0.1s ease 0s;
+}
+.bot .follow-us li a:hover {
+	color: #fff !important;
+	
+	background-color: #36D1C4;
+}
+.bot .img{
+	border: 3px solid transparent;
+	transition: all .3s;
+	text-align: center;	
+}
+.bot .img a{
+	font-size: 0px;
+}
+.bot .img:hover{
+	border: 3px solid #36D1C4;
+}
+
+.copyright{
+	padding: 10px;
+	color: #bababa;
+	background-color: #202222;
+	text-align: center;
+}
+
+.myli{
+	transition: all .3s;
+}
+
+.myli:hover{
+	background: #555;
+}
+.page-item-active a{
+   background: #36d1c2;
+   color: white;
+}
+.page-item-active a:hover{
+	background: yellow;
+	color: #000000;
+}
